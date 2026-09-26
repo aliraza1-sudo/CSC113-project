@@ -2,11 +2,15 @@
 using namespace std;
 int main()
 {
+	// declaring variables
 	long int accountbalance,withdrawl;
 	cout<<"Enter your account balance."<<endl;
+	//taking input from the user for account balance
 	cin>>accountbalance;
 	cout<<"Enter a withdrawl ammount"<<endl;
+	// taking input from the user for withdrawl
 	cin>>withdrawl;
+	// adding checks/conditions
 	if(withdrawl>accountbalance)
 	{
 		cout<<"Insufficient Balance"<<endl;
